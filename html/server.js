@@ -3,7 +3,7 @@ const { request } = require('http');
 const path = require('path');
 const https = require('https');
 const session = require('express-session');
-const PORT = process.env.PORT || 3000 //allow environment variable to possible set PORT
+const PORT = process.env.PORT //allow environment variable to possible set PORT
 
 const sqlite3 = require('sqlite3').verbose() //verbose provides more detailed stack trace
 const db = new sqlite3.Database('sqlite/users.db')
