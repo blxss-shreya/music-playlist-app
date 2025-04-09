@@ -1,0 +1,26 @@
+<head>
+    <title>Admin</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<table id="adminTable">
+  <thead>
+    <tr>
+      <th>User ID</th>
+      <th>Password</th>
+      <th>Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each users}}
+      <tr>
+        <td>{{this.userid}}</td>
+        <td>{{this.password}}</td>
+        <td>{{this.role}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+
+<script src="/script.js"></script> 

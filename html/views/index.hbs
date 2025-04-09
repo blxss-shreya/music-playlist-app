@@ -1,0 +1,49 @@
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h2>Playlist</h2>
+    <table id="playlistTable">
+        <thead>
+            <tr>
+                <th>Actions </th>
+                <th>Song Title </th>
+                <th>Artist </th>
+                <th>Artwork</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- New rows will be added here dynamically -->
+        </tbody>
+    </table>
+    <div class="container">
+        <div class="wrapper">
+            Enter Song Title: <input type="text" id="song" />
+            <button id="submit_button"  style="margin-bottom: 50px;">Submit</button>
+        </div>
+        <div id="songname"></div>
+    </div>
+    <h2>Matching Songs </h2>
+    <table id="matchingSongs">
+        <thead>
+            <tr>
+                <th>Actions </th>
+                <th>Song Title </th>
+                <th>Artist </th>
+                <th>Artwork</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- New rows will be added here dynamically -->
+        </tbody>
+    </table>
+
+    <script src="js/script.js"></script>
+</body>
+

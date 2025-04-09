@@ -1,0 +1,84 @@
+/* Your styles go in this file */
+
+html {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+body {
+    background: linear-gradient(to bottom right, lightyellow, lightblue, pink);
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+}
+th, td {
+    border: 1px solid turquoise;
+    background-color: white;
+    padding: 28px;
+    text-align: center;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#recipes {
+    text-align: justify;
+}
+
+
+.recipe {
+    width: 30%;
+    display: inline-block;
+    border: 1px solid grey;
+    margin: 15px;
+}
+
+.recipe img {
+    width: 100%;
+    height: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+button {
+    height: 35px;
+    color: white;
+    background-color: lightskyblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+input {
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, lightyellow, lightblue, lightpink);
+    font-family: 'Poppins', sans-serif;
+}
